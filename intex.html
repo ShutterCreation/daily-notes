@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head" id="head">
+        <h1>Daily Notes</h1>
+    </div>
+    <div class="box" id="box">
+        <div class="bal" id="bos">
+        <h2>About Me</h2>
+        <h5>Anto Jerin</h5>
+        <p>I'm a 17-year-old with skills in HTML, CSS, JavaScript, Java, and C++. His diverse knowledge in web development and programming languages.</p>
+        
+        <button onclick="delet(event)">Delete</button>
+    </div>
+
+    </div>
+    <div class="popup" id="popup"></div>
+    <div class="popbox" id="popbo">
+        <h2>Add A note</h2>
+        <form>
+            <input type="text" placeholder="Title" id="tin">
+            <input type="text" placeholder="Name" id="namain">
+            <br>
+            <textarea placeholder="notes" id="notein"></textarea>
+            <button id="addn">Add</button>
+            <button id="can">Cancel</button>
+        </form>
+    </div>
+
+
+
+    <button class="add" id="addbut" >+</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    .pt-serif-regular {
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .pt-serif-bold {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .pt-serif-regular-italic {
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .pt-serif-bold-italic {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      background-attachment: fixed;
+      background-image: url('image/very.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+      
+}
+.head{
+    background-color: rgba(255, 0, 85, 0.868);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+.box{
+    padding: 10px;
+    
+    
+    
+}
+.bal h2{
+   
+    color: rgb(255, 0, 157);
+}
+.bal button{
+   background-color: #FD6569;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-top: 10px;
+
+}
+.bal{
+    padding: 15px;
+    width: 25%;
+    
+    background-color:black;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+
+    
+
+}
+.add{
+    background-color: #FD6569;
+    color:white;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    
+    
+
+}
+.popbox{
+    background-image: url('image/ppp.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    padding:40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 2;
+    display: none;
+  
+}
+.popbox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black;
+}
+.popbox textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black;
+}
+.popbox textarea::placeholder{
+    color: black;
+}
+.popbox input::placeholder{
+    color: black;
+}
+.popbox button{
+    background-color: black;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.popbox input:focus{
+    outline: none;
+}
+.popbox textarea:focus{
+    outline: none;
+}
